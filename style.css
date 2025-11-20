@@ -1,0 +1,88 @@
+/* Global Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: #eee;
+}
+
+/* Navbar */
+.nav-link {
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 60px 0;
+    background: linear-gradient(to bottom, #000, #111);
+}
+
+/* Cards */
+.session-card {
+    background-color: #1a1a1a;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+}
+
+/* Inputs */
+.form-control {
+    background-color: #222 !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
+}
+
+/* Modern Button */
+.btn-primary {
+    background: linear-gradient(45deg, #0d6efd, #6610f2);
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+/* Form Container */
+.form-dark {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+}
+
+/* Make placeholder text visible on dark background */
+::placeholder {
+    color: #bbb !important;
+    opacity: 1 !important;
+}
+
+/* For different browsers */
+.form-control::placeholder {
+    color: #bbb !important;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    color: #bbb !important;
+}
+
+/* Card session styling */
+.session-card {
+    background-color: #1a1a1a;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+}
+
+.session-card .card-img-top {
+    object-fit: cover;
+    height: 180px; /* fixed height so cards look uniform */
+}
+
+.session-card .card-body {
+    padding: 1rem;
+}
